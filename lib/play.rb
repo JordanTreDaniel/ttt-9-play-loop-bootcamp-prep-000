@@ -37,5 +37,7 @@ end
 
 # Define your play method below
 def play(board) 
-  
+  do.times(9)
+    turn(board)
+  end
 end 
